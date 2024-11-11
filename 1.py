@@ -38,7 +38,7 @@ js = json.load(open('json/'+input_num+'.json'))
 #print(js)
 if js['volumeId'] == 'text':
 	if js['titleInfo'].get('title') :
-		print('<div id="title">%s</div>'%js['titleInfo']['title'])
+		print('<div id="title">%s</div>'%js['titleInfo']['ownlineNumber']+':'+js['titleInfo']['title'])
 	else:
 		print('<div id="title">%s</div>'%js['seoTitle'])
 	print(js['bodyHtml'])
@@ -143,7 +143,7 @@ if js['volumeId'] == 'text':
 						#print('d'+input_num+'#'+str(i[0])+':'+str(j+1)+'=='+i[1][j].strip()+'。')
 if js['volumeId'] == 'workbook':
 	if js['titleInfo'].get('title') :
-		print('<div id="title">%s</div>'%js['titleInfo']['title'])
+		print('<div id="title">%s</div>'%js['titleInfo']['ownlineNumber']+':'+js['titleInfo']['title'])
 	else:
 		print('<div id="title">%s</div>'%js['seoTitle'])
 	print(js['bodyHtml'])
@@ -152,7 +152,19 @@ if js['volumeId'] == 'workbook':
 	'''
 	r
 	'''
-	with open('miracle_l/'+lesson_num+'.txt','r',encoding='gb2312') as f:
+
+	rpath = 'miracle_l/'+lesson_num+'.txt'
+	det_f = open(rpath,'rb')
+	cha = chardet.detect(det_f.read())
+	det_f.close()
+	unc = 'GB18030'
+	#print(cha)
+	if cha['encoding'] == 'GB2312':
+		unc = 'GB18030'
+	else:
+		unc=cha['encoding']
+	#print(unc)
+	with open('miracle_l/'+lesson_num+'.txt','r',encoding=unc) as f:
 		content = f.read()
 		content = content.replace('？','。')
 		content = content.replace('！','。')
@@ -161,10 +173,13 @@ if js['volumeId'] == 'workbook':
 		lst_c_num = []
 		for i in range(1,30):
 			t = str(i)+'、'
+
 			d = content.find(t)
+			#print(d)
 			if d > 0:
 				lst_c_num.append(d)
 		#print(lst_c_num)
+
 		lst_c = []
 		lst_c_2=[]
 		for i in range(len(lst_c_num)):
