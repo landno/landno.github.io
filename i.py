@@ -28,5 +28,5 @@ if inp == 't':
   for i in natsorted(os.listdir('text')):
     if i[-4:] == 'html':
       t = i.split('.')[0]
-      print('  <a href="%s">%s</a>'%('text/'+i,t))
+      print('  <a href="%s">%s</a>'%('text/'+i,i[0:-5]))
 print(bodyF)
