@@ -13,3 +13,5 @@ if input_title[0] == 'w':
 		if js['volumeId'] == 'workbook':
 			if js['humanId'].split('-')[1] == input_title[1:]:
 				os.system('python3 1.py '+str(js['sectionId'])+' > workbook/'+input_title+'.html')
+
+os.system('python3 i.py w > workbook.html')
