@@ -37,8 +37,10 @@ input_num=sys.argv[1]
 js = json.load(open('json/'+input_num+'.json'))
 #print(js)
 if js['volumeId'] == 'text':
-	print()
-	print('<div id="title">%s</div>'%js['seoTitle'])
+	if js['titleInfo']['title'] :
+		print('<div id="title">%s</div>'%js['titleInfo']['title'])
+	else:
+		print('<div id="title">%s</div>'%js['seoTitle'])
 	print(js['bodyHtml'])
 	c_num = js['humanId'].split('-')[1]
 	if len(js['humanId'].split('-'))<3:
@@ -140,8 +142,10 @@ if js['volumeId'] == 'text':
 						print('<div class="popup" tid="%s">%s</div>'%('u'+input_num+'#'+str(i[0])+':'+str(j+1),i[1][j].strip()+'。'))
 						#print('d'+input_num+'#'+str(i[0])+':'+str(j+1)+'=='+i[1][j].strip()+'。')
 if js['volumeId'] == 'workbook':
-	print()
-	print('<div id="title">%s</div>'%js['seoTitle'])
+	if js['titleInfo']['title'] :
+		print('<div id="title">%s</div>'%js['titleInfo']['title'])
+	else:
+		print('<div id="title">%s</div>'%js['seoTitle'])
 	print(js['bodyHtml'])
 	lesson_num = js['annotation'][2:]
 
