@@ -6,17 +6,17 @@ from docx import Document
 import chardet
 
 scp ='''
-<script src="acim.js"></script>
+<script src="../acim.js"></script>
 '''
 bodyH='''
 <!DOCTYPE html>
 <head>
 <meta charset=UTF-8>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style.css">
 <style>
 
 </style>
-<script src="jquery-3.7.1.min.js"></script>
+<script src="../jquery-3.7.1.min.js"></script>
 
 
 <title>
@@ -38,7 +38,7 @@ js = json.load(open('json/'+input_num+'.json'))
 #print(js)
 if js['volumeId'] == 'text':
 	if js['titleInfo'].get('title') :
-		print('<div id="title">%s</div>'%js['titleInfo']['ownlineNumber']+':'+js['titleInfo']['title'])
+		print('<div id="title">%s</div>'%(js['titleInfo']['ownlineNumber']+':'+js['titleInfo']['title']))
 	else:
 		print('<div id="title">%s</div>'%js['seoTitle'])
 	print(js['bodyHtml'])
@@ -143,7 +143,7 @@ if js['volumeId'] == 'text':
 						#print('d'+input_num+'#'+str(i[0])+':'+str(j+1)+'=='+i[1][j].strip()+'。')
 if js['volumeId'] == 'workbook':
 	if js['titleInfo'].get('title') :
-		print('<div id="title">%s</div>'%js['titleInfo']['ownlineNumber']+':'+js['titleInfo']['title'])
+		print('<div id="title">%s</div>'%(js['titleInfo']['ownlineNumber']+':'+js['titleInfo']['title']))
 	else:
 		print('<div id="title">%s</div>'%js['seoTitle'])
 	print(js['bodyHtml'])
