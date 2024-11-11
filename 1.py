@@ -38,7 +38,7 @@ js = json.load(open('json/'+input_num+'.json'))
 #print(js)
 if js['volumeId'] == 'text':
 	if js['titleInfo'].get('title') :
-		print('<div id="title">%s</div>'%(js['titleInfo']['ownlineNumber']+':'+js['titleInfo']['title']))
+		print('<div id="title">%s</div>'%(js['annotation']+':'+js['titleInfo']['title']))
 	else:
 		print('<div id="title">%s</div>'%js['seoTitle'])
 	print(js['bodyHtml'])
