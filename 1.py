@@ -35,6 +35,8 @@ print(bodyH)
 
 input_num=sys.argv[1]
 js = json.load(open('json/'+input_num+'.json'))
+if int(input_num) < 100:
+	input_num='0'+input_num
 #print(js)
 if js['volumeId'] == 'text':
 	if js['titleInfo'].get('title') :
