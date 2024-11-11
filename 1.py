@@ -37,7 +37,7 @@ input_num=sys.argv[1]
 js = json.load(open('json/'+input_num+'.json'))
 #print(js)
 if js['volumeId'] == 'text':
-	if js['titleInfo']['title'] :
+	if js['titleInfo'].get('title') :
 		print('<div id="title">%s</div>'%js['titleInfo']['title'])
 	else:
 		print('<div id="title">%s</div>'%js['seoTitle'])
@@ -142,7 +142,7 @@ if js['volumeId'] == 'text':
 						print('<div class="popup" tid="%s">%s</div>'%('u'+input_num+'#'+str(i[0])+':'+str(j+1),i[1][j].strip()+'。'))
 						#print('d'+input_num+'#'+str(i[0])+':'+str(j+1)+'=='+i[1][j].strip()+'。')
 if js['volumeId'] == 'workbook':
-	if js['titleInfo']['title'] :
+	if js['titleInfo'].get('title') :
 		print('<div id="title">%s</div>'%js['titleInfo']['title'])
 	else:
 		print('<div id="title">%s</div>'%js['seoTitle'])
