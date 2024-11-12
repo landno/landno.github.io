@@ -48,6 +48,18 @@ if inp == 't':
   
         #print(js)
         #print(js['titleInfo']['title'])
+        if js['sectionId'] == 102 and i == 't6.5.html':
+          tit = js['titleInfo']['title']
+          js['volumeId'] = 'skip'
+        if js['sectionId'] == 103 and i == 't6.5a.html':
+          tit = js['titleInfo']['title']
+          js['volumeId'] = 'skip'
+        if js['sectionId'] == 104 and i == 't6.5b.html':
+          tit = js['titleInfo']['title']
+          js['volumeId'] = 'skip'
+        if js['sectionId'] == 105 and i == 't6.5c.html':
+          tit = js['titleInfo']['title']
+          js['volumeId'] = 'skip'
         if js['volumeId'] == 'text':
           if len(js['humanId'].split('-'))>3:
             if js['humanId'].split('-')[1] == i.split('.')[0][1:] and js['humanId'].split('-')[3] == i.split('.')[1]:
