@@ -43,4 +43,4 @@ for i in os.listdir('text'):
 					print(u_id[j]+'=not same='+d_id[j]+' in '+str(j))
 					print(i)
 					print('--------')
-print('total count:'+str(count))
+print('text total count:'+str(count))

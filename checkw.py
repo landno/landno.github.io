@@ -46,4 +46,4 @@ for i in os.listdir('workbook'):
 					print('file:'+i)
 					print('------------')
 
-print('total err:'+str(count))
+print('workbook total err:'+str(count))

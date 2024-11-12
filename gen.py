@@ -24,3 +24,5 @@ if input_title[0] == 'w':
 
 os.system('python3 i.py w > workbook.html')
 os.system('python3 i.py t > text.html')
+os.system('python3 checkw.py')
+os.system('python3 checkt.py')
