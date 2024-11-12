@@ -1,6 +1,7 @@
 import os
 from bs4 import BeautifulSoup
 import numpy as np
+count=0
 errp = []
 for i in os.listdir('workbook'):
 	if i[-4:] == 'html':
@@ -33,6 +34,7 @@ for i in os.listdir('workbook'):
 				print(i+'@@@@@@@@error@@@@@@@')
 				print(len(u_id))
 				print(len(d_id))
+				count+=1
 
 				if len(d_id) == 0:
 					errp.append(i)
@@ -41,4 +43,5 @@ for i in os.listdir('workbook'):
 					if u_id[i] != d_id[i]:
 						print(u_id[i]+'=not same='+d_id[i]+' in '+str(i))
 print(errp)
+print(count)
 				

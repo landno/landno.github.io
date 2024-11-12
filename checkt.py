@@ -1,7 +1,7 @@
 import os
 from bs4 import BeautifulSoup
 import numpy as np
-
+count = 0
 for i in os.listdir('text'):
 	if i[-4:] == 'html':
 		with open('text/'+i) as f:
@@ -31,9 +31,10 @@ for i in os.listdir('text'):
 							d_id[k] = str(h)
 			if u_count != d_count:
 				print(i+'@@@@@@@@error@@@@@@@')
+				count+=1
 				print(len(u_id))
 				print(len(d_id))
 				for i in range(1,len(u_id)+1):
 					if u_id[i] != d_id[i]:
 						print(u_id[i]+'=not same='+d_id[i]+' in '+str(i))
-				
+print(count)
