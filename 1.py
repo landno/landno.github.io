@@ -168,7 +168,15 @@ if js['volumeId'] == 'text':
 	r
 	'''
 	
-
+	det_f = open(rpath,'rb')
+	cha = chardet.detect(det_f.read())
+	det_f.close()
+	unc = 'GB18030'
+	#print(cha)
+	if cha['encoding'] == 'GB2312':
+		unc = 'GB18030'
+	else:
+		unc=cha['encoding']
 	with open(rpath,'r',encoding=unc) as f:
 
 		content = f.read()
