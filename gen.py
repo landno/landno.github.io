@@ -3,7 +3,18 @@ import json
 import sys
 
 input_title = sys.argv[1]
-
+if input_title == 't6.5':
+	os.system('python3 1.py 102 > text/t6.5.html')
+	input_title = 'skip'
+if input_title == 't6.5a':
+	os.system('python3 1.py 103 > text/t6.5a.html')
+	input_title = 'skip'
+if input_title == 't6.5b':
+	os.system('python3 1.py 104 > text/t6.5b.html')
+	input_title = 'skip'
+if input_title == 't6.5c':
+	os.system('python3 1.py 105 > text/t6.5c.html')
+	input_title = 'skip'
 
 if input_title[0] == 't':
 	for i in os.listdir('json'):

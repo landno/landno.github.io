@@ -38,6 +38,112 @@ js = json.load(open('json/'+input_num+'.json'))
 if int(input_num) < 100:
 	input_num='0'+input_num
 #print(js)
+if input_num == '102' or input_num == '103' or input_num == '104' or input_num == '105':
+	js['volumeId'] = 'skip'
+	if js['titleInfo'].get('title') :
+		print('<div id="title">%s</div>'%(js['annotation']+':'+js['titleInfo']['title']))
+	else:
+		print('<div id="title">%s</div>'%js['seoTitle'])
+	print(js['bodyHtml'])
+	rpath = ''
+	xf = ''
+	if input_num == '102':
+		rpath = 'miracle_r/6.爱的课题/5.圣灵的课程.txt'
+		xf = 'xzc/text/6/6-5 聖靈的教誨.docx'
+	if input_num == '103':
+		rpath = 'miracle_r/6.爱的课题/（一）若要拥有，普施众生.txt'
+		xf = 'xzc/text/6/一、若想擁有，普施一切.docx'
+	if input_num == '104':
+		rpath = 'miracle_r/6.爱的课题/（二） 若要平安，教人平安，从而学到平安.txt'
+		xf = 'xzc/text/6/二、若想平安，就藉著教導它來學會它.docx'
+	if input_num == '105':
+		rpath = 'miracle_r/6.爱的课题/（三） 只为上主及其天国而警醒.txt'
+		xf = 'xzc/text/6/三、只為上主及其天國而儆醒.docx'
+	det_f = open(rpath,'rb')
+	cha = chardet.detect(det_f.read())
+	det_f.close()
+	unc = 'GB18030'
+	#print(cha)
+	if cha['encoding'] == 'GB2312':
+		unc = 'GB18030'
+	else:
+		unc=cha['encoding']
+	#print(unc)
+	det_f = open(rpath,'rb')
+	cha = chardet.detect(det_f.read())
+	det_f.close()
+	unc = 'GB18030'
+	#print(cha)
+	if cha['encoding'] == 'GB2312':
+		unc = 'GB18030'
+	else:
+		unc=cha['encoding']
+	#print(unc)
+	doc = Document(xf)
+	content = ''
+	text = []
+	for p in doc.paragraphs:
+		text.append(p.text)
+	content = '\n'.join(text)
+	content = content.replace('？','。')
+	content = content.replace('！','。')
+	content = content.replace('：','。')
+
+	#print(content)
+	lst_c_num = []
+	for i in range(1,30):
+		t = str(i)+'.'
+		d = content.find(t)
+		if d >= 0:
+			lst_c_num.append(d)
+	#print(lst_c_num)
+	lst_c = []
+	lst_c_2=[]
+	for i in range(len(lst_c_num)):
+		if i < len(lst_c_num)-1:
+			lst_c.append(content[lst_c_num[i]:lst_c_num[i+1]])
+		else:
+			lst_c.append(content[lst_c_num[i]:])
+	for i in range(len(lst_c)):
+		lst_c_2.append([i+1,lst_c[i].strip().split('。')])
+
+	for i in lst_c_2:
+		#print(i)
+		for j in range(len(i[1])):
+			if len(i[1][j])>1:
+				print('<div class="popup" tid="%s">%s</div>'%('u'+input_num+'#'+str(i[0])+':'+str(j+1),i[1][j].strip()+'。'))
+				#print('d'+input_num+'#'+str(i[0])+':'+str(j+1)+'=='+i[1][j].strip()+'。')
+	
+	with open(rpath,'r',encoding=unc) as f:
+
+		content = f.read()
+		content = content.replace('？','。')
+		content = content.replace('！','。')
+		content = content.replace('：','。')
+		lst_c_num = []
+		for i in range(1,30):
+			t = str(i)+'、'
+			d = content.find(t)
+			if d > 0:
+				lst_c_num.append(d)
+		#print(lst_c_num)
+		lst_c = []
+		lst_c_2=[]
+		for i in range(len(lst_c_num)):
+			if i < len(lst_c_num)-1:
+				lst_c.append(content[lst_c_num[i]:lst_c_num[i+1]])
+			else:
+				lst_c.append(content[lst_c_num[i]:])
+		for i in range(len(lst_c)):
+			lst_c_2.append([i+1,lst_c[i].strip().split('。')])
+
+		for i in lst_c_2:
+			#print(i)
+			for j in range(len(i[1])):
+				if len(i[1][j])>1:
+					print('<div class="popup" tid="%s">%s</div>'%('d'+input_num+'#'+str(i[0])+':'+str(j+1),i[1][j].strip()+'。'))
+					#print('u'+input_num+'#'+str(i[0])+':'+str(j+1)+'=='+i[1][j].strip()+'。')
+
 if js['volumeId'] == 'text':
 	if js['titleInfo'].get('title') :
 		print('<div id="title">%s</div>'%(js['annotation']+':'+js['titleInfo']['title']))
@@ -61,17 +167,8 @@ if js['volumeId'] == 'text':
 	'''
 	r
 	'''
-	det_f = open(rpath,'rb')
-	cha = chardet.detect(det_f.read())
-	det_f.close()
-	unc = 'GB18030'
-	#print(cha)
-	if cha['encoding'] == 'GB2312':
-		unc = 'GB18030'
-	else:
-		unc=cha['encoding']
-	#print(unc)
 	
+
 	with open(rpath,'r',encoding=unc) as f:
 
 		content = f.read()
