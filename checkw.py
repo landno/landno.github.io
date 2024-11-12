@@ -30,18 +30,20 @@ for i in os.listdir('workbook'):
 							d_id[k] = d_id[k]+','+str(h)
 						else:
 							d_id[k] = str(h)
-			if u_count != d_count:
-				print(i+'@@@@@@@@error@@@@@@@')
-				print(len(u_id))
-				print(len(d_id))
-				count+=1
+			
+			#print(i+'@@@@@@@@error@@@@@@@')
+			#print(len(u_id))
+			#print(len(d_id))
+			
 
-				if len(d_id) == 0:
-					errp.append(i)
-					continue
-				for i in range(1,len(u_id)+1):
-					if u_id[i] != d_id[i]:
-						print(u_id[i]+'=not same='+d_id[i]+' in '+str(i))
-print(errp)
-print(count)
-				
+			if len(d_id) == 0:
+				errp.append(i)
+				continue
+			for j in range(1,len(u_id)+1):
+				if u_id[j] != d_id[j]:
+					count+=1
+					print(u_id[j]+'=not same='+d_id[j]+' in para:'+str(j))
+					print('file:'+i)
+					print('------------')
+
+print('total err:'+str(count))

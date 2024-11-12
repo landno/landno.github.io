@@ -29,12 +29,18 @@ for i in os.listdir('text'):
 							d_id[k] = d_id[k]+','+str(h)
 						else:
 							d_id[k] = str(h)
-			if u_count != d_count:
-				print(i+'@@@@@@@@error@@@@@@@')
-				count+=1
-				print(len(u_id))
-				print(len(d_id))
-				for i in range(1,len(u_id)+1):
-					if u_id[i] != d_id[i]:
-						print(u_id[i]+'=not same='+d_id[i]+' in '+str(i))
-print(count)
+			#print(u_id)
+			#print(d_id)
+			#if u_count != d_count:
+			#print(i+'@@@@@@@@error@@@@@@@')
+			
+			
+			for j in range(1,len(u_id)+1):
+				if u_id[j] != d_id[j]:
+					#print(len(u_id))
+					#print(len(d_id))
+					count+=1
+					print(u_id[j]+'=not same='+d_id[j]+' in '+str(j))
+					print(i)
+					print('--------')
+print('total count:'+str(count))

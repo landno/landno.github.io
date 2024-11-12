@@ -7,7 +7,7 @@ bodyH='''
   <head>
     <style>
       a {
-        font-color:black;
+        color:black;
         font-size:10pt;
         margin:10pt;
       }
