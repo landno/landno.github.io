@@ -7,8 +7,8 @@ bodyH='''
   <head>
     <style>
       a {
-        font-size:30pt;
-        margin:30pt;
+        font-size:10pt;
+        margin:10pt;
       }
     </style>
   </head>
@@ -20,13 +20,14 @@ bodyF='''
 '''
 inp = sys.argv[1]
 print(bodyH)
+jl = []
+for j in os.listdir('json'):
+      jl.append(json.load(open('json/'+j)))
 if inp == 'w':
   for i in natsorted(os.listdir('workbook')):
     if i[-4:] == 'html':
       tit = ''
-      for j in os.listdir('json'):
-        js = json.load(open('json/'+j))
-        
+      for js in jl:
         #print(js)
         #print(js['titleInfo']['title'])
         if js['volumeId'] == 'workbook':
@@ -42,9 +43,8 @@ if inp == 't':
   for i in natsorted(os.listdir('text')):
     if i[-4:] == 'html':
       tit = ''
-      for j in os.listdir('json'):
-        js = json.load(open('json/'+j))
-        
+      for js in jl:
+  
         #print(js)
         #print(js['titleInfo']['title'])
         if js['volumeId'] == 'text':
