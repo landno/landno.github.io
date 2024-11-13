@@ -42,5 +42,6 @@ for i in os.listdir('text'):
 					count+=1
 					print(u_id[j]+'=not same='+d_id[j]+' in '+str(j))
 					print(i)
+					#os.system('rm text/'+i)
 					print('--------')
 print('text total count:'+str(count))

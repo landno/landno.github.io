@@ -44,6 +44,7 @@ for i in os.listdir('workbook'):
 					count+=1
 					print(u_id[j]+'=not same='+d_id[j]+' in para:'+str(j))
 					print('file:'+i)
+					#os.system('rm workbook/'+i)
 					print('------------')
 
 print('workbook total err:'+str(count))
