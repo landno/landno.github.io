@@ -42,13 +42,17 @@ r_t_lst = []
 x_t_lst = []
 if js['volumeId'] == 'text':
 	tag = js['annotation']+'.'
+	if js['annotation'] == 'T-2.V-A':
+		tag = 'T-2.V.A.'
 	for i in r_lst:
 		#print(i)
 		soup = BeautifulSoup(i,'html.parser')
 		content = soup.text
 		for i in range(1,80):
+			#print(tag+str(i))
 			r = content.find(tag+str(i))
 			if r>0:
+				#print(content)
 				r2 = content.find(tag+str(i+1))
 				if r2>0:
 					r_t_lst.append(content[r:r2])
