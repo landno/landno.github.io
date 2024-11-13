@@ -62,9 +62,9 @@ if js['volumeId'] == 'text':
 		#first
 		k = i.find('2',len(tag)+3)
 		if k>0:
-			print('<div class="popup" tid="u%s">%s</div>'%(str(num)+'#'+i[len(tag):].split('.')[0]+':1',i[len(tag):k].replace('\n','')))
+			print('<div class="popup" tid="d%s">%s</div>'%(str(num)+'#'+i[len(tag):].split('.')[0]+':1',i[len(tag):k].replace('\n','')))
 		else:
-			print('<div class="popup" tid="u%s">%s</div>'%(str(num)+'#'+i[len(tag):].split('.')[0]+':1',i[len(tag):].replace('\n','')))
+			print('<div class="popup" tid="d%s">%s</div>'%(str(num)+'#'+i[len(tag):].split('.')[0]+':1',i[len(tag):].replace('\n','')))
 
 		#last
 		for k in range(2,30):
@@ -72,11 +72,11 @@ if js['volumeId'] == 'text':
 			c2 = i.find(str(k+1),len(tag)+3)
 			if c1>0 and c2>0:
 				t = i[c1:c2]
-				print('<div class="popup" tid="u%s">%s</div>'%(str(num)+'#'+i[len(tag):].split('.')[0]+':'+t.split(' ')[0],t[len(str(k))+1:].replace('\n','')))
+				print('<div class="popup" tid="d%s">%s</div>'%(str(num)+'#'+i[len(tag):].split('.')[0]+':'+t.split(' ')[0],t[len(str(k))+1:].replace('\n','')))
 				#print(i[c1:c2].strip())
 			elif c1>0 and c2<0:
 				t = i[c1:]
-				print('<div class="popup" tid="u%s">%s</div>'%(str(num)+'#'+i[len(tag):].split('.')[0]+':'+t.split(' ')[0],t[len(str(k))+1:].replace('\n','')))
+				print('<div class="popup" tid="d%s">%s</div>'%(str(num)+'#'+i[len(tag):].split('.')[0]+':'+t.split(' ')[0],t[len(str(k))+1:].replace('\n','')))
 				#print(i[c1:].strip())
 	#print(r_t_lst)
 	x_soup = BeautifulSoup(open('x_html/'+js['humanId']+'.html'),'html.parser')
@@ -102,16 +102,16 @@ if js['volumeId'] == 'text':
 		k = i.find('2',3)
 		if k>0:
 			#print('<div class="popup" tid="%s">%s</div>'%('u'+input_num+'#'+str(i[0])+':'+str(j+1),i[1][j].strip()+'。'))
-			print('<div class="popup" tid="d%s">%s</div>'%(str(num)+'#'+i.split('.')[0]+':1',i[0:k].replace('\n','')))
+			print('<div class="popup" tid="u%s">%s</div>'%(str(num)+'#'+i.split('.')[0]+':1',i[0:k].replace('\n','')))
 		else:
-			print('<div class="popup" tid="d%s">%s</div>'%(str(num)+'#'+i.split('.')[0]+':1',i[0:].replace('\n','')))
+			print('<div class="popup" tid="u%s">%s</div>'%(str(num)+'#'+i.split('.')[0]+':1',i[0:].replace('\n','')))
 		for j in range(2,30):
 			k1 = i.find(str(j),3)
 			k2 = i.find(str(j+1),3)
 			if k1>0 and k2>0:
-				print('<div class="popup" tid="d%s">%s</div>'%(str(num)+'#'+i.split('.')[0]+':'+str(j),i[k1+len(str(j)):k2].replace('\n','')))
+				print('<div class="popup" tid="u%s">%s</div>'%(str(num)+'#'+i.split('.')[0]+':'+str(j),i[k1+len(str(j)):k2].replace('\n','')))
 			elif k1>0 and k2<0:
-				print('<div class="popup" tid="d%s">%s</div>'%(str(num)+'#'+i.split('.')[0]+':'+str(j),i[k1+len(str(j)):].replace('\n','')))
+				print('<div class="popup" tid="u%s">%s</div>'%(str(num)+'#'+i.split('.')[0]+':'+str(j),i[k1+len(str(j)):].replace('\n','')))
 
 #print(js['bodyHtml'])
 print('<div display="none" class="popup" id="utext"></div>')
