@@ -23,6 +23,7 @@ for i in os.listdir('html'):
 							u_id[k] = str(h)
 					if j['tid'][0] == 'd':
 						d_count+=1
+						#print(j)
 						k = int(j['tid'].split('#')[1].split(':')[0])
 						h = int(j['tid'].split('#')[1].split(':')[1])
 						if d_id.get(k):
@@ -33,14 +34,16 @@ for i in os.listdir('html'):
 			#print(d_id)
 			#if u_count != d_count:
 			#print(i+'@@@@@@@@error@@@@@@@')
-			
-			
-			for j in range(1,len(u_id)+1):
-				if u_id[j] != d_id[j]:
+			#print(i)
+			#print(len(u_id))
+			#print(len(d_id))
+
+			for k,v in u_id.items():
+				if v != d_id[k]:
 					#print(len(u_id))
 					#print(len(d_id))
 					count+=1
-					print(u_id[j]+'=not same='+d_id[j]+' in '+str(j))
+					print(u_id[k]+'=not same='+d_id[k]+' in '+str(k))
 					print(i)
 					#os.system('rm text/'+i)
 					print('--------')
