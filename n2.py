@@ -46,7 +46,7 @@ if js['volumeId'] == 'text':
 		#print(i)
 		soup = BeautifulSoup(i,'html.parser')
 		content = soup.text
-		for i in range(1,30):
+		for i in range(1,80):
 			r = content.find(tag+str(i))
 			if r>0:
 				r2 = content.find(tag+str(i+1))
@@ -62,33 +62,33 @@ if js['volumeId'] == 'text':
 		#first
 		k = i.find('2',len(tag)+3)
 		if k>0:
-			print('<div class="popup" tid="u%s">%s</div>'%(str(num)+'#'+i.split('.')[1]+':1',i[0:k].replace('\n','')))
+			print('<div class="popup" tid="u%s">%s</div>'%(str(num)+'#'+i[len(tag):].split('.')[0]+':1',i[len(tag):k].replace('\n','')))
 		else:
-			print('<div class="popup" tid="u%s">%s</div>'%(str(num)+'#'+i.split('.')[1]+':1',i[0:].replace('\n','')))
+			print('<div class="popup" tid="u%s">%s</div>'%(str(num)+'#'+i[len(tag):].split('.')[0]+':1',i[len(tag):].replace('\n','')))
 
 		#last
 		for k in range(2,30):
 			c1 = i.find(str(k),len(tag)+3)
-			c2 = i.find(str(k+1))
+			c2 = i.find(str(k+1),len(tag)+3)
 			if c1>0 and c2>0:
 				t = i[c1:c2]
-				print('<div class="popup" tid="u%s">%s</div>'%(str(num)+'#'+i.split('.')[1]+':'+t.split(' ')[0],t[len(str(k))+1:].replace('\n','')))
+				print('<div class="popup" tid="u%s">%s</div>'%(str(num)+'#'+i[len(tag):].split('.')[0]+':'+t.split(' ')[0],t[len(str(k))+1:].replace('\n','')))
 				#print(i[c1:c2].strip())
 			elif c1>0 and c2<0:
 				t = i[c1:]
-				print('<div class="popup" tid="u%s">%s</div>'%(str(num)+'#'+i.split('.')[1]+':'+t.split(' ')[0],t[len(str(k))+1:].replace('\n','')))
+				print('<div class="popup" tid="u%s">%s</div>'%(str(num)+'#'+i[len(tag):].split('.')[0]+':'+t.split(' ')[0],t[len(str(k))+1:].replace('\n','')))
 				#print(i[c1:].strip())
 	#print(r_t_lst)
 	x_soup = BeautifulSoup(open('x_html/'+js['humanId']+'.html'),'html.parser')
 
 
-	for i in x_soup.find_all('p'):
-		#print(i)
+	for p in x_soup.find_all('p'):
+		#print(p)
 		k = ['0','1','2','3','4','5','6','7','8','9']
-		if str(i)[3:4] in k:
-			x_t_lst.append(i.text)
+		if str(p)[3:4] in k:
+			x_t_lst.append(p.text)
 		else:
-			x_t_lst[len(x_t_lst)-1]=str(x_t_lst[len(x_t_lst)-1])+i.text
+			x_t_lst[len(x_t_lst)-1]=str(x_t_lst[len(x_t_lst)-1])+p.text
 			#print(str(i)[3:4]+' not num')
 		#print(i.text.strip())
 	#print(x_t_lst)
