@@ -1,144 +1,740 @@
-w236.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3=not same=1,2,3,4 in 2
-w241.html@@@@@@@@error@@@@@@@
-2
-5
-1,2,3,4,5,6,7,8=not same=1,2,3,4,5 in 1
-1,2,3=not same=1,2,3,4,5,6,7,8 in 2
-w294.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3,4,5,6,7,8,9,10=not same=1,2,3,4,5,6,7,8,9,10,11 in 1
-w83.html@@@@@@@@error@@@@@@@
-4
-4
-1,2,3,4,5=not same=1,2,3,4 in 1
-w305.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3=not same=1,2,3,4 in 2
-w221.html@@@@@@@@error@@@@@@@
-2
-11
-1,2,3,4,5,6=not same=1,2,3,4,5,6,7,8,9 in 2
-w299.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3,4,5,6,7=not same=1,2,3,4,5,6,7,8 in 2
-w333.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3,4=not same=1,2,3,4,5,6 in 1
-w247.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3,4,5,6,7,8=not same=1,2,3,4,5,6,7,8,9 in 1
-w251.html@@@@@@@@error@@@@@@@
-2
-5
-1,2=not same=1,2,3,4,5,6,7 in 2
-w359.html@@@@@@@@error@@@@@@@
-1
-1
-1,2,3,4,5,6,7,8,9=not same=1,2,3,4,5,6,7,8,9,10,11 in 1
-w71.html@@@@@@@@error@@@@@@@
-10
-10
-1,2,3,4=not same=1,2,3,4,5 in 3
-w318.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3,4,5,6,7,8=not same=1,2,3,4,5,6,7,8,9 in 1
-w271.html@@@@@@@@error@@@@@@@
-2
-5
-1,2,3,4=not same=1,2,3,4,5 in 1
-1,2,3=not same=1,2,3,4,5 in 2
-w289.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3,4,5,6=not same=1,2,3,4,5,6,7 in 1
-w231.html@@@@@@@@error@@@@@@@
-2
-5
-1,2,3,4,5,6=not same=1,2,3,4,5 in 1
-w70.html@@@@@@@@error@@@@@@@
-10
-10
-1,2,3,4,5,6=not same=1,2,3,4,5,6,7 in 2
-w358.html@@@@@@@@error@@@@@@@
-1
-1
-1,2,3,4,5,6,7=not same=1,2,3,4,5,6 in 1
-w285.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3,4=not same=1,2,3,4,5,6 in 1
-w339.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3,4,5,6,7,8,9=not same=1,2,3,4,5,6,7,8,9,10 in 1
-w303.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3,4,5,6=not same=1,2,3,4,5,6,7 in 1
-w354.html@@@@@@@@error@@@@@@@
-1
-1
-1,2,3,4,5,6,7=not same=1,2,3,4,5,6,7,8,9 in 1
-w269.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3,4,5=not same=1,2,3,4,5,6 in 1
-w228.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3,4=not same=1,2,3,4,5 in 1
-w341.html@@@@@@@@error@@@@@@@
-2
-5
-1,2,3=not same=1,2,3,4,5,6,7 in 1
-1,2=not same=1,2,3,4,5 in 2
-w300.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3=not same=1,2,3,4 in 1
-w245.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3,4,5,6,7=not same=1,2,3,4,5,6,7,8 in 1
-w320.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3,4,5,6=not same=1,2,3,4,5,6,7 in 1
-w224.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3,4=not same=1,2,3,4,5,6 in 2
-w273.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3,4,5=not same=1,2,3,4 in 1
-w249.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3,4,5,6,7=not same=1,2,3,4,5,6,7,8 in 1
-w272.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3,4=not same=1,2,3 in 2
-w337.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3,4,5,6=not same=1,2,3,4,5,6,7 in 1
-w225.html@@@@@@@@error@@@@@@@
-2
-2
-1,2,3,4,5=not same=1,2,3,4 in 2
-w360.html@@@@@@@@error@@@@@@@
-1
-1
-1,2,3,4,5,6,7=not same=1,2,3,4,5,6,7,8 in 1
-[]
+preface-heading:Preface
+preface-1:How It Came
+preface-2:What It Is
+preface-3:What It Says
+text-intro:Introduction
+chap-1-sect-1:Principles of Miracles
+chap-1-sect-2:Revelation, Time and Miracles
+chap-1-sect-3:Atonement and Miracles
+chap-1-sect-4:The Escape from Darkness
+chap-1-sect-5:Wholeness and Spirit
+chap-1-sect-6:The Illusion of Needs
+chap-1-sect-7:Distortions of Miracle Impulses
+chap-2-sect-1:The Origins of Separation
+chap-2-sect-2:The Atonement as Defense
+chap-2-sect-3:The Altar of God
+chap-2-sect-4:Healing as Release from Fear
+chap-2-sect-5:The Function of the Miracle Worker
+chap-2-sect-5-sub-a:Special Principles of Miracle Workers
+chap-2-sect-6:Fear and Conflict
+chap-2-sect-7:Cause and Effect
+chap-2-sect-8:The Meaning of the Last Judgment
+chap-3-sect-1:Atonement without Sacrifice
+chap-3-sect-2:Miracles as True Perception
+chap-3-sect-3:Perception versus Knowledge
+chap-3-sect-4:Error and the Ego
+chap-3-sect-5:Beyond Perception
+chap-3-sect-6:Judgment and the Authority Problem
+chap-3-sect-7:Creating versus the Self-Image
+chap-4-intro:Introduction
+chap-4-sect-1:Right Teaching and Right Learning
+chap-4-sect-2:The Ego and False Autonomy
+chap-4-sect-3:Love without Conflict
+chap-4-sect-4:This Need Not Be
+chap-4-sect-5:The Ego-Body Illusion
+chap-4-sect-6:The Rewards of God
+chap-4-sect-7:Creation and Communication
+chap-5-intro:Introduction
+chap-5-sect-1:The Invitation to the Holy Spirit
+chap-5-sect-2:The Voice for God
+chap-5-sect-3:The Guide to Salvation
+chap-5-sect-4:Teaching and Healing
+chap-5-sect-5:The Ego’s Use of Guilt
+chap-5-sect-6:Time and Eternity
+chap-5-sect-7:The Decision for God
+chap-6-intro:Introduction
+chap-6-sect-1:The Message of the Crucifixion
+chap-6-sect-2:The Alternative to Projection
+chap-6-sect-3:The Relinquishment of Attack
+chap-6-sect-4:The Only Answer
+chap-6-sect-5:The Lessons of the Holy Spirit
+chap-6-sect-5-sub-a:To Have, Give All to All
+chap-6-sect-5-sub-b:To Have Peace, Teach Peace to Learn It
+chap-6-sect-5-sub-c:Be Vigilant Only for God and His Kingdom
+chap-7-sect-1:The Last Step
+chap-7-sect-2:The Law of the Kingdom
+chap-7-sect-3:The Reality of the Kingdom
+chap-7-sect-4:Healing as the Recognition of Truth
+chap-7-sect-5:Healing and the Changelessness of Mind
+chap-7-sect-6:From Vigilance to Peace
+chap-7-sect-7:The Totality of the Kingdom
+chap-7-sect-8:The Unbelievable Belief
+chap-7-sect-9:The Extension of the Kingdom
+chap-7-sect-10:The Confusion of Pain and Joy
+chap-7-sect-11:The State of Grace
+chap-8-sect-1:The Direction of the Curriculum
+chap-8-sect-2:The Difference between Imprisonment and Freedom
+chap-8-sect-3:The Holy Encounter
+chap-8-sect-4:The Gift of Freedom
+chap-8-sect-5:The Undivided Will of the Sonship
+chap-8-sect-6:The Treasure of God
+chap-8-sect-7:The Body as a Means of Communication
+chap-8-sect-8:The Body as Means or End
+chap-8-sect-9:Healing as Corrected Perception
+chap-9-sect-1:The Acceptance of Reality
+chap-9-sect-2:The Answer to Prayer
+chap-9-sect-3:The Correction of Error
+chap-9-sect-4:The Holy Spirit’s Plan of Forgiveness
+chap-9-sect-5:The Unhealed Healer
+chap-9-sect-6:The Acceptance of Your Brother
+chap-9-sect-7:The Two Evaluations
+chap-9-sect-8:Grandeur versus Grandiosity
+chap-10-intro:Introduction
+chap-10-sect-1:At Home in God
+chap-10-sect-2:The Decision to Forget
+chap-10-sect-3:The God of Sickness
+chap-10-sect-4:The End of Sickness
+chap-10-sect-5:The Denial of God
+chap-11-intro:Introduction
+chap-11-sect-1:The Gifts of Fatherhood
+chap-11-sect-2:The Invitation to Healing
+chap-11-sect-3:From Darkness to Light
+chap-11-sect-4:The Inheritance of God’s Son
+chap-11-sect-5:The “Dynamics” of the Ego
+chap-11-sect-6:Waking to Redemption
+chap-11-sect-7:The Condition of Reality
+chap-11-sect-8:The Problem and the Answer
+chap-12-sect-1:The Judgment of the Holy Spirit
+chap-12-sect-2:The Way to Remember God
+chap-12-sect-3:The Investment in Reality
+chap-12-sect-4:Seeking and Finding
+chap-12-sect-5:The Sane Curriculum
+chap-12-sect-6:The Vision of Christ
+chap-12-sect-7:Looking Within
+chap-12-sect-8:The Attraction of Love for Love
+chap-13-intro:Introduction
+chap-13-sect-1:Guiltlessness and Invulnerability
+chap-13-sect-2:The Guiltless Son of God
+chap-13-sect-3:The Fear of Redemption
+chap-13-sect-4:The Function of Time
+chap-13-sect-5:The Two Emotions
+chap-13-sect-6:Finding the Present
+chap-13-sect-7:Attainment of the Real World
+chap-13-sect-8:From Perception to Knowledge
+chap-13-sect-9:The Cloud of Guilt
+chap-13-sect-10:Release from Guilt
+chap-13-sect-11:The Peace of Heaven
+chap-14-intro:Introduction
+chap-14-sect-1:The Conditions of Learning
+chap-14-sect-2:The Happy Learner
+chap-14-sect-3:The Decision for Guiltlessness
+chap-14-sect-4:Your Function in the Atonement
+chap-14-sect-5:The Circle of Atonement
+chap-14-sect-6:The Light of Communication
+chap-14-sect-7:Sharing Perception with the Holy Spirit
+chap-14-sect-8:The Holy Meeting Place
+chap-14-sect-9:The Reflection of Holiness
+chap-14-sect-10:The Equality of Miracles
+chap-14-sect-11:The Test of Truth
+chap-15-sect-1:The Two Uses of Time
+chap-15-sect-2:The End of Doubt
+chap-15-sect-3:Littleness versus Magnitude
+chap-15-sect-4:Practicing the Holy Instant
+chap-15-sect-5:The Holy Instant and Special Relationships
+chap-15-sect-6:The Holy Instant and the Laws of God
+chap-15-sect-7:The Needless Sacrifice
+chap-15-sect-8:The Only Real Relationship
+chap-15-sect-9:The Holy Instant and the Attraction of God
+chap-15-sect-10:The Time of Rebirth
+chap-15-sect-11:Christmas as the End of Sacrifice
+chap-16-sect-1:True Empathy
+chap-16-sect-2:The Power of Holiness
+chap-16-sect-3:The Reward of Teaching
+chap-16-sect-4:The Illusion and the Reality of Love
+chap-16-sect-5:The Choice for Completion
+chap-16-sect-6:The Bridge to the Real World
+chap-16-sect-7:The End of Illusions
+chap-17-sect-1:Bringing Fantasy to Truth
+chap-17-sect-2:The Forgiven World
+chap-17-sect-3:Shadows of the Past
+chap-17-sect-4:The Two Pictures
+chap-17-sect-5:The Healed Relationship
+chap-17-sect-6:Setting the Goal
+chap-17-sect-7:The Call for Faith
+chap-17-sect-8:The Conditions of Peace
+chap-18-sect-1:The Substitute Reality
+chap-18-sect-2:The Basis of the Dream
+chap-18-sect-3:Light in the Dream
+chap-18-sect-4:The Little Willingness
+chap-18-sect-5:The Happy Dream
+chap-18-sect-6:Beyond the Body
+chap-18-sect-7:I Need Do Nothing
+chap-18-sect-8:The Little Garden
+chap-18-sect-9:The Two Worlds
+chap-19-sect-1:Healing and Faith
+chap-19-sect-2:Sin versus Error
+chap-19-sect-3:The Unreality of Sin
+chap-19-sect-4:The Obstacles to Peace
+chap-19-sect-4-sub-a:The First Obstacle: The Desire to Get Rid of It
+chap-19-sect-4-sub-a-sub-i:The Attraction of Guilt
+chap-19-sect-4-sub-b:The Second Obstacle: The Belief the Body is Valuab...
+chap-19-sect-4-sub-b-sub-i:The Attraction of Pain
+chap-19-sect-4-sub-c:The Third Obstacle: The Attraction of Death
+chap-19-sect-4-sub-c-sub-i:The Incorruptible Body
+chap-19-sect-4-sub-d:The Fourth Obstacle: The Fear of God
+chap-19-sect-4-sub-d-sub-i:The Lifting of the Veil
+chap-20-sect-1:Holy Week
+chap-20-sect-2:The Gift of Lilies
+chap-20-sect-3:Sin as an Adjustment
+chap-20-sect-4:Entering the Ark
+chap-20-sect-5:Heralds of Eternity
+chap-20-sect-6:The Temple of the Holy Spirit
+chap-20-sect-7:The Consistency of Means and End
+chap-20-sect-8:The Vision of Sinlessness
+chap-21-intro:Introduction
+chap-21-sect-1:The Forgotten Song
+chap-21-sect-2:The Responsibility for Sight
+chap-21-sect-3:Faith, Belief and Vision
+chap-21-sect-4:The Fear to Look Within
+chap-21-sect-5:The Function of Reason
+chap-21-sect-6:Reason versus Madness
+chap-21-sect-7:The Last Unanswered Question
+chap-21-sect-8:The Inner Shift
+chap-22-intro:Introduction
+chap-22-sect-1:The Message of the Holy Relationship
+chap-22-sect-2:Your Brother’s Sinlessness
+chap-22-sect-3:Reason and the Forms of Error
+chap-22-sect-4:The Branching of the Road
+chap-22-sect-5:Weakness and Defensiveness
+chap-22-sect-6:The Light of the Holy Relationship
+chap-23-intro:Introduction
+chap-23-sect-1:The Irreconcilable Beliefs
+chap-23-sect-2:The Laws of Chaos
+chap-23-sect-3:Salvation without Compromise
+chap-23-sect-4:Above the Battleground
+chap-24-intro:Introduction
+chap-24-sect-1:Specialness as a Substitute for Love
+chap-24-sect-2:The Treachery of Specialness
+chap-24-sect-3:The Forgiveness of Specialness
+chap-24-sect-4:Specialness versus Sinlessness
+chap-24-sect-5:The Christ in You
+chap-24-sect-6:Salvation from Fear
+chap-24-sect-7:The Meeting Place
+chap-25-intro:Introduction
+chap-25-sect-1:The Link to Truth
+chap-25-sect-2:The Savior from the Dark
+chap-25-sect-3:Perception and Choice
+chap-25-sect-4:The Light You Bring
+chap-25-sect-5:The State of Sinlessness
+chap-25-sect-6:The Special Function
+chap-25-sect-7:The Rock of Salvation
+chap-25-sect-8:Justice Returned to Love
+chap-25-sect-9:The Justice of Heaven
+chap-26-sect-1:The “Sacrifice” of Oneness
+chap-26-sect-2:Many Forms; One Correction
+chap-26-sect-3:The Borderland
+chap-26-sect-4:Where Sin Has Left
+chap-26-sect-5:The Little Hindrance
+chap-26-sect-6:The Appointed Friend
+chap-26-sect-7:The Laws of Healing
+chap-26-sect-8:The Immediacy of Salvation
+chap-26-sect-9:For They Have Come
+chap-26-sect-10:The End of Injustice
+chap-27-sect-1:The Picture of Crucifixion
+chap-27-sect-2:The Fear of Healing
+chap-27-sect-3:Beyond All Symbols
+chap-27-sect-4:The Quiet Answer
+chap-27-sect-5:The Healing Example
+chap-27-sect-6:The Witnesses to Sin
+chap-27-sect-7:The Dreamer of the Dream
+chap-27-sect-8:The “Hero” of the Dream
+chap-28-sect-1:The Present Memory
+chap-28-sect-2:Reversing Effect and Cause
+chap-28-sect-3:The Agreement to Join
+chap-28-sect-4:The Greater Joining
+chap-28-sect-5:The Alternate to Dreams of Fear
+chap-28-sect-6:The Secret Vows
+chap-28-sect-7:The Ark of Safety
+chap-29-sect-1:The Closing of the Gap
+chap-29-sect-2:The Coming of the Guest
+chap-29-sect-3:God’s Witnesses
+chap-29-sect-4:Dream Roles
+chap-29-sect-5:The Changeless Dwelling Place
+chap-29-sect-6:Forgiveness and the End of Time
+chap-29-sect-7:Seek Not Outside Yourself
+chap-29-sect-8:The Anti-Christ
+chap-29-sect-9:The Forgiving Dream
+chap-30-intro:Introduction
+chap-30-sect-1:Rules for Decision
+chap-30-sect-2:Freedom of Will
+chap-30-sect-3:Beyond All Idols
+chap-30-sect-4:The Truth behind Illusions
+chap-30-sect-5:The Only Purpose
+chap-30-sect-6:The Justification for Forgiveness
+chap-30-sect-7:The New Interpretation
+chap-30-sect-8:Changeless Reality
+chap-31-sect-1:The Simplicity of Salvation
+chap-31-sect-2:Walking with Christ
+chap-31-sect-3:The Self-Accused
+chap-31-sect-4:The Real Alternative
+chap-31-sect-5:Self-Concept versus Self
+chap-31-sect-6:Recognizing the Spirit
+chap-31-sect-7:The Savior’s Vision
+chap-31-sect-8:Choose Once Again
+wb-intro:Introduction
+lesson-1:Nothing I see in this room [on this street,  from ...
+lesson-2:I have given everything I see in this room  [on th...
+lesson-3:I do not understand anything I see in this room  [...
+lesson-4:These thoughts do not mean anything. They are like...
+lesson-5:I am never upset for the reason I think.
+lesson-6:I am upset because I see something that is not the...
+lesson-7:I see only the past.
+lesson-8:My mind is preoccupied with past thoughts.
+lesson-9:I see nothing as it is now.
+lesson-10:My thoughts do not mean anything.
+lesson-11:My meaningless thoughts are showing me a  meaningl...
+lesson-12:I am upset because I see a meaningless world.
+lesson-13:A meaningless world engenders fear.
+lesson-14:God did not create a meaningless world.
+lesson-15:My thoughts are images that I have made.
+lesson-16:I have no neutral thoughts.
+lesson-17:I see no neutral things.
+lesson-18:I am not alone in experiencing the effects of my s...
+lesson-19:I am not alone in experiencing the effects of my t...
+lesson-20:I am determined to see.
+lesson-21:I am determined to see things differently.
+lesson-22:What I see is a form of vengeance.
+lesson-23:I can escape from the world I see  by giving up at...
+lesson-24:I do not perceive my own best interests.
+lesson-25:I do not know what anything is for.
+lesson-26:My attack thoughts are attacking my invulnerabilit...
+lesson-27:Above all else I want to see.
+lesson-28:Above all else I want to see things differently.
+lesson-29:God is in everything I see.
+lesson-30:God is in everything I see because God is in my mi...
+lesson-31:I am not the victim of the world I see.
+lesson-32:I have invented the world I see.
+lesson-33:There is another way of looking at the world.
+lesson-34:I could see peace instead of this.
+lesson-35:My mind is part of God’s. I am very holy.
+lesson-36:My holiness envelops everything I see.
+lesson-37:My holiness blesses the world.
+lesson-38:There is nothing my holiness cannot do.
+lesson-39:My holiness is my salvation.
+lesson-40:I am blessed as a Son of God.
+lesson-41:God goes with me wherever I go.
+lesson-42:God is my strength. Vision is His gift.
+lesson-43:God is my Source. I cannot see apart from Him.
+lesson-44:God is the light in which I see.
+lesson-45:God is the Mind with which I think.
+lesson-46:God is the Love in which I forgive.
+lesson-47:God is the strength in which I trust.
+lesson-48:There is nothing to fear.
+lesson-49:God’s Voice speaks to me all through the day.
+lesson-50:I am sustained by the Love of God.
+review-1-intro:Introduction
+lesson-51:Lesson 51: Review (1–5) 
+lesson-52:Lesson 52: Review (6–10) 
+lesson-53:Lesson 53: Review (11–15) 
+lesson-54:Lesson 54: Review (16–20) 
+lesson-55:Lesson 55: Review (21–25) 
+lesson-56:Lesson 56: Review (26–30) 
+lesson-57:Lesson 57: Review (31–35) 
+lesson-58:Lesson 58: Review (36–40) 
+lesson-59:Lesson 59: Review (41–45) 
+lesson-60:Lesson 60: Review (46–50) 
+lesson-61:I am the light of the world.
+lesson-62:Forgiveness is my function as the light of the wor...
+lesson-63:The light of the world brings peace to every mind ...
+lesson-64:Let me not forget my function.
+lesson-65:My only function is the one God gave me.
+lesson-66:My happiness and my function are one.
+lesson-67:Love created me like itself.
+lesson-68:Love holds no grievances.
+lesson-69:My grievances hide the light of the world in me.
+lesson-70:My salvation comes from me.
+lesson-71:Only God’s plan for salvation will work.
+lesson-72:Holding grievances is an attack on God’s plan for ...
+lesson-73:I will there be light.
+lesson-74:There is no will but God’s.
+lesson-75:The light has come.
+lesson-76:I am under no laws but God’s.
+lesson-77:I am entitled to miracles.
+lesson-78:Let miracles replace all grievances.
+lesson-79:Let me recognize the problem so it can be solved.
+lesson-80:Let me recognize my problems have been solved.
+review-2-intro:Introduction
+lesson-81:Lesson 81: Review (61 and 62) 
+lesson-82:Lesson 82: Review (63 and 64) 
+lesson-83:Lesson 83: Review (65 and 66) 
+lesson-84:Lesson 84: Review (67 and 68) 
+lesson-85:Lesson 85: Review (69 and 70) 
+lesson-86:Lesson 86: Review (71 and 72) 
+lesson-87:Lesson 87: Review (73 and 74) 
+lesson-88:Lesson 88: Review (75 and 76) 
+lesson-89:Lesson 89: Review (77 and 78) 
+lesson-90:Lesson 90: Review (79 and 80) 
+lesson-91:Miracles are seen in light.
+lesson-92:Miracles are seen in light, and light and strength...
+lesson-93:Light and joy and peace abide in me.
+lesson-94:I am as God created me.
+lesson-95:I am one Self, united with my Creator.
+lesson-96:Salvation comes from my one Self.
+lesson-97:I am spirit.
+lesson-98:I will accept my part in God’s plan for salvation.
+lesson-99:Salvation is my only function here.
+lesson-100:My part is essential to God’s plan for salvation.
+lesson-101:God’s Will for me is perfect happiness.
+lesson-102:I share God’s Will for happiness for me.
+lesson-103:God, being Love, is also happiness.
+lesson-104:I seek but what belongs to me in truth.
+lesson-105:God’s peace and joy are mine.
+lesson-106:Let me be still and listen to the truth.
+lesson-107:Truth will correct all errors in my mind.
+lesson-108:To give and to receive are one in truth.
+lesson-109:I rest in God.
+lesson-110:I am as God created me.
+review-3-intro:Introduction
+lesson-111:Lesson 111: Review (91 and 92) 
+lesson-112:Lesson 112: Review (93 and 94) 
+lesson-113:Lesson 113: Review (95 and 96) 
+lesson-114:Lesson 114: Review (97 and 98) 
+lesson-115:Lesson 115: Review (99 and 100) 
+lesson-116:Lesson 116: Review (101 and 102) 
+lesson-117:Lesson 117: Review (103 and 104) 
+lesson-118:Lesson 118: Review (105 and 106) 
+lesson-119:Lesson 119: Review (107 and 108) 
+lesson-120:Lesson 120: Review (109 and 110) 
+lesson-121:Forgiveness is the key to happiness.
+lesson-122:Forgiveness offers everything I want.
+lesson-123:I thank my Father for His gifts to me.
+lesson-124:Let me remember I am one with God.
+lesson-125:In quiet I receive God’s Word today.
+lesson-126:All that I give is given to myself.
+lesson-127:There is no love but God’s.
+lesson-128:The world I see holds nothing that I want.
+lesson-129:Beyond this world there is a world I want.
+lesson-130:It is impossible to see two worlds.
+lesson-131:No one can fail who seeks to reach the truth.
+lesson-132:I loose the world from all I thought it was.
+lesson-133:I will not value what is valueless.
+lesson-134:Let me perceive forgiveness as it is.
+lesson-135:If I defend myself I am attacked.
+lesson-136:Sickness is a defense against the truth.
+lesson-137:When I am healed I am not healed alone.
+lesson-138:Heaven is the decision I must make.
+lesson-139:I will accept Atonement for myself.
+lesson-140:Only salvation can be said to cure.
+review-4-intro:Introduction
+lesson-141:Lesson 141: Review (121 and 122) 
+lesson-142:Lesson 142: Review (123 and 124) 
+lesson-143:Lesson 143: Review (125 and 126) 
+lesson-144:Lesson 144: Review (127 and 128) 
+lesson-145:Lesson 145: Review (129 and 130) 
+lesson-146:Lesson 146: Review (131 and 132) 
+lesson-147:Lesson 147: Review (133 and 134) 
+lesson-148:Lesson 148: Review (135 and 136) 
+lesson-149:Lesson 149: Review (137 and 138) 
+lesson-150:Lesson 150: Review (139 and 140) 
+lesson-151:All things are echoes of the Voice for God.
+lesson-152:The power of decision is my own.
+lesson-153:In my defenselessness my safety lies.
+lesson-154:I am among the ministers of God.
+lesson-155:I will step back and let Him lead the way.
+lesson-156:I walk with God in perfect holiness.
+lesson-157:Into His Presence would I enter now.
+lesson-158:Today I learn to give as I receive.
+lesson-159:I give the miracles I have received.
+lesson-160:I am at home. Fear is the stranger here.
+lesson-161:Give me your blessing, holy Son of God.
+lesson-162:I am as God created me.
+lesson-163:There is no death. The Son of God is free.
+lesson-164:Now are we one with Him Who is our Source.
+lesson-165:Let not my mind deny the Thought of God.
+lesson-166:I am entrusted with the gifts of God.
+lesson-167:There is one life, and that I share with God.
+lesson-168:Your grace is given me. I claim it now.
+lesson-169:By grace I live. By grace I am released.
+lesson-170:There is no cruelty in God and none in me.
+review-5-intro:Introduction
+lesson-171:Lesson 171: Review (151 and 152) 
+lesson-172:Lesson 172: Review (153 and 154) 
+lesson-173:Lesson 173: Review (155 and 156) 
+lesson-174:Lesson 174: Review (157 and 158) 
+lesson-175:Lesson 175: Review (159 and 160) 
+lesson-176:Lesson 176: Review (161 and 162) 
+lesson-177:Lesson 177: Review (163 and 164) 
+lesson-178:Lesson 178: Review (165 and 166) 
+lesson-179:Lesson 179: Review (167 and 168) 
+lesson-180:Lesson 180: Review (169 and 170) 
+l-181-to-200-intro:Introduction to Lessons 181–200
+lesson-181:I trust my brothers, who are one with me.
+lesson-182:I will be still an instant and go home.
+lesson-183:I call upon God’s Name and on my own.
+lesson-184:The Name of God is my inheritance.
+lesson-185:I want the peace of God.
+lesson-186:Salvation of the world depends on me.
+lesson-187:I bless the world because I bless myself.
+lesson-188:The peace of God is shining in me now.
+lesson-189:I feel the Love of God within me now.
+lesson-190:I choose the joy of God instead of pain.
+lesson-191:I am the holy Son of God Himself.
+lesson-192:I have a function God would have me fill.
+lesson-193:All things are lessons God would have me learn.
+lesson-194:I place the future in the Hands of God.
+lesson-195:Love is the way I walk in gratitude.
+lesson-196:It can be but myself I crucify.
+lesson-197:It can be but my gratitude I earn.
+lesson-198:Only my condemnation injures me.
+lesson-199:I am not a body. I am free.
+lesson-200:There is no peace except the peace of God.
+review-6-intro:Introduction
+lesson-201:Lesson 201: Review (181) 
+lesson-202:Lesson 202: Review (182) 
+lesson-203:Lesson 203: Review (183) 
+lesson-204:Lesson 204: Review (184) 
+lesson-205:Lesson 205: Review (185) 
+lesson-206:Lesson 206: Review (186) 
+lesson-207:Lesson 207: Review (187) 
+lesson-208:Lesson 208: Review (188) 
+lesson-209:Lesson 209: Review (189) 
+lesson-210:Lesson 210: Review (190) 
+lesson-211:Lesson 211: Review (191) 
+lesson-212:Lesson 212: Review (192) 
+lesson-213:Lesson 213: Review (193) 
+lesson-214:Lesson 214: Review (194) 
+lesson-215:Lesson 215: Review (195) 
+lesson-216:Lesson 216: Review (196) 
+lesson-217:Lesson 217: Review (197) 
+lesson-218:Lesson 218: Review (198) 
+lesson-219:Lesson 219: Review (199) 
+lesson-220:Lesson 220: Review (200) 
+wb-part2-intro:Introduction
+wb-part2-what-is-1:What Is Forgiveness?
+lesson-221:Peace to my mind. Let all my thoughts be still.
+lesson-222:God is with me. I live and move in Him.
+lesson-223:God is my life. I have no life but His.
+lesson-224:God is my Father, and He loves His Son.
+lesson-225:God is my Father, and His Son loves Him.
+lesson-226:My home awaits me. I will hasten there.
+lesson-227:This is my holy instant of release.
+lesson-228:God has condemned me not. No more do I.
+lesson-229:Love, which created me, is what I am.
+lesson-230:Now will I seek and find the peace of God.
+wb-part2-what-is-2:What Is Salvation?
+lesson-231:Father, I will but to remember You.
+lesson-232:Be in my mind, my Father, through the day.
+lesson-233:I give my life to God to guide today.
+lesson-234:Father, today I am Your Son again.
+lesson-235:God in His mercy wills that I be saved.
+lesson-236:I rule my mind, which I alone must rule.
+lesson-237:Now would I be as God created me.
+lesson-238:On my decision all salvation rests.
+lesson-239:The glory of my Father is my own.
+lesson-240:Fear is not justified in any form.
+wb-part2-what-is-3:What Is the World?
+lesson-241:This holy instant is salvation come.
+lesson-242:This day is God’s. It is my gift to Him.
+lesson-243:Today I will judge nothing that occurs.
+lesson-244:I am in danger nowhere in the world.
+lesson-245:Your peace is with me, Father. I am safe.
+lesson-246:To love my Father is to love His Son.
+lesson-247:Without forgiveness I will still be blind.
+lesson-248:Whatever suffers is not part of me.
+lesson-249:Forgiveness ends all suffering and loss.
+lesson-250:Let me not see myself as limited.
+wb-part2-what-is-4:What Is Sin?
+lesson-251:I am in need of nothing but the truth.
+lesson-252:The Son of God is my Identity.
+lesson-253:My Self is ruler of the universe.
+lesson-254:Let every voice but God’s be still in me.
+lesson-255:This day I choose to spend in perfect peace.
+lesson-256:God is the only goal I have today.
+lesson-257:Let me remember what my purpose is.
+lesson-258:Let me remember that my goal is God.
+lesson-259:Let me remember that there is no sin.
+lesson-260:Let me remember God created me.
+wb-part2-what-is-5:What Is the Body?
+lesson-261:God is my refuge and security.
+lesson-262:Let me perceive no differences today.
+lesson-263:My holy vision sees all things as pure.
+lesson-264:I am surrounded by the Love of God.
+lesson-265:Creation’s gentleness is all I see.
+lesson-266:My holy Self abides in you, God’s Son.
+lesson-267:My heart is beating in the peace of God.
+lesson-268:Let all things be exactly as they are.
+lesson-269:My sight goes forth to look upon Christ’s face.
+lesson-270:I will not use the body’s eyes today.
+wb-part2-what-is-6:What Is the Christ?
+lesson-271:Christ’s is the vision I will use today.
+lesson-272:How can illusions satisfy God’s Son?
+lesson-273:The stillness of the peace of God is mine.
+lesson-274:Today belongs to love. Let me not fear.
+lesson-275:God’s healing Voice protects all things today.
+lesson-276:The Word of God is given me to speak.
+lesson-277:Let me not bind Your Son with laws I made.
+lesson-278:If I am bound, my Father is not free.
+lesson-279:Creation’s freedom promises my own.
+lesson-280:What limits can I lay upon God’s Son?
+wb-part2-what-is-7:What Is the Holy Spirit?
+lesson-281:I can be hurt by nothing but my thoughts.
+lesson-282:I will not be afraid of love today.
+lesson-283:My true Identity abides in You.
+lesson-284:I can elect to change all thoughts that hurt.
+lesson-285:My holiness shines bright and clear today.
+lesson-286:The hush of Heaven holds my heart today.
+lesson-287:You are my goal, my Father. Only You.
+lesson-288:Let me forget my brother’s past today.
+lesson-289:The past is over. It can touch me not.
+lesson-290:My present happiness is all I see.
+wb-part2-what-is-8:What Is the Real World?
+lesson-291:This is a day of stillness and of peace.
+lesson-292:A happy outcome to all things is sure.
+lesson-293:All fear is past and only love is here.
+lesson-294:My body is a wholly neutral thing.
+lesson-295:The Holy Spirit looks through me today.
+lesson-296:The Holy Spirit speaks through me today.
+lesson-297:Forgiveness is the only gift I give.
+lesson-298:I love You, Father, and I love Your Son.
+lesson-299:Eternal holiness abides in me.
+lesson-300:Only an instant does this world endure.
+wb-part2-what-is-9:What Is the Second Coming?
+lesson-301:And God Himself shall wipe away all tears.
+lesson-302:Where darkness was I look upon the light.
+lesson-303:The holy Christ is born in me today.
+lesson-304:Let not my world obscure the sight of Christ.
+lesson-305:There is a peace that Christ bestows on us.
+lesson-306:The gift of Christ is all I seek today.
+lesson-307:Conflicting wishes cannot be my will.
+lesson-308:This instant is the only time there is.
+lesson-309:I will not fear to look within today.
+lesson-310:In fearlessness and love I spend today.
+wb-part2-what-is-10:What Is the Last Judgment?
+lesson-311:I judge all things as I would have them be.
+lesson-312:I see all things as I would have them be.
+lesson-313:Now let a new perception come to me.
+lesson-314:I seek a future different from the past.
+lesson-315:All gifts my brothers give belong to me.
+lesson-316:All gifts I give my brothers are my own.
+lesson-317:I follow in the way appointed me.
+lesson-318:In me salvation’s means and end are one.
+lesson-319:I came for the salvation of the world.
+lesson-320:My Father gives all power unto me.
+wb-part2-what-is-11:What Is Creation?
+lesson-321:Father, my freedom is in You alone.
+lesson-322:I can give up but what was never real.
+lesson-323:I gladly make the “sacrifice” of fear.
+lesson-324:I merely follow, for I would not lead.
+lesson-325:All things I think I see reflect ideas.
+lesson-326:I am forever an Effect of God.
+lesson-327:I need but call and You will answer me.
+lesson-328:I choose the second place to gain the first.
+lesson-329:I have already chosen what You will.
+lesson-330:I will not hurt myself again today.
+wb-part2-what-is-12:What Is the Ego?
+lesson-331:There is no conflict, for my will is Yours.
+lesson-332:Fear binds the world. Forgiveness sets it free.
+lesson-333:Forgiveness ends the dream of conflict here.
+lesson-334:Today I claim the gifts forgiveness gives.
+lesson-335:I choose to see my brother’s sinlessness.
+lesson-336:Forgiveness lets me know that minds are joined.
+lesson-337:My sinlessness protects me from all harm.
+lesson-338:I am affected only by my thoughts.
+lesson-339:I will receive whatever I request.
+lesson-340:I can be free of suffering today.
+wb-part2-what-is-13:What Is a Miracle?
+lesson-341:I can attack but my own sinlessness,  and it is on...
+lesson-342:I let forgiveness rest upon all things,  for thus ...
+lesson-343:I am not asked to make a sacrifice to find the mer...
+lesson-344:Today I learn the law of love; that what  I give m...
+lesson-345:I offer only miracles today,  for I would have the...
+lesson-346:Today the peace of God envelops me,  and I forget ...
+lesson-347:Anger must come from judgment. Judgment is  the we...
+lesson-348:I have no cause for anger or for fear,  for You su...
+lesson-349:Today I let Christ’s vision look upon  all things ...
+lesson-350:Miracles mirror God’s eternal Love.  To offer them...
+wb-part2-what-is-14:What Am I?
+lesson-351:My sinless brother is my guide to peace.  My sinfu...
+lesson-352:Judgment and love are opposites. From one  come al...
+lesson-353:My eyes, my tongue, my hands, my feet today  have ...
+lesson-354:We stand together, Christ and I, in peace  and cer...
+lesson-355:There is no end to all the peace and joy,  and all...
+lesson-356:Sickness is but another name for sin.  Healing is ...
+lesson-357:Truth answers every call we make to God,  respondi...
+lesson-358:No call to God can be unheard nor left  unanswered...
+lesson-359:God’s answer is some form of peace. All pain  is h...
+lesson-360:Peace be to me, the holy Son of God.  Peace to my ...
+final-lessons-intro:Introduction
+final-lessons:This holy instant would I give to You.  Be You in ...
+wb-epilogue:Epilogue
+manual-intro:Introduction
+manual-1:Who Are God’s Teachers?
+manual-2:Who Are Their Pupils?
+manual-3:What Are the Levels of Teaching?
+manual-4:What Are the Characteristics of God’s Teachers?
+manual-4-sect-1:Trust
+manual-4-sect-1-sub-a:Development of Trust
+manual-4-sect-2:Honesty
+manual-4-sect-3:Tolerance
+manual-4-sect-4:Gentleness
+manual-4-sect-5:Joy
+manual-4-sect-6:Defenselessness
+manual-4-sect-7:Generosity
+manual-4-sect-8:Patience
+manual-4-sect-9:Faithfulness
+manual-4-sect-10:Open-Mindedness
+manual-5:How Is Healing Accomplished?
+manual-5-sect-1:The Perceived Purpose of Sickness
+manual-5-sect-2:The Shift in Perception
+manual-5-sect-3:The Function of the Teacher of God
+manual-6:Is Healing Certain?
+manual-7:Should Healing Be Repeated?
+manual-8:How Can Perception of Order of Difficulties Be Avo...
+manual-9:Are Changes Required in the Life Situation of God’...
+manual-10:How Is Judgment Relinquished?
+manual-11:How Is Peace Possible in This World?
+manual-12:How Many Teachers of God Are Needed to Save the Wo...
+manual-13:What Is the Real Meaning of Sacrifice?
+manual-14:How Will the World End?
+manual-15:Is Each One to Be Judged in the End?
+manual-16:How Should the Teacher of God Spend His Day?
+manual-17:How Do God’s Teachers Deal with Magic Thoughts?
+manual-18:How Is Correction Made?
+manual-19:What Is Justice?
+manual-20:What Is the Peace of God?
+manual-21:What Is the Role of Words in Healing?
+manual-22:How Are Healing and Atonement Related?
+manual-23:Does Jesus Have a Special Place in Healing?
+manual-24:Is Reincarnation So?
+manual-25:Are “Psychic” Powers Desirable?
+manual-26:Can God Be Reached Directly?
+manual-27:What Is Death?
+manual-28:What Is the Resurrection?
+manual-29:As for the Rest...
+clarification-intro:Introduction
+clarification-01:Mind – Spirit
+clarification-02:The Ego – The Miracle
+clarification-03:Forgiveness – The Face of Christ
+clarification-04:True Perception – Knowledge
+clarification-05:Jesus – Christ
+clarification-06:The Holy Spirit
+clarification-epilogue:Epilogue
+supplements-intro:Supplements to A Course in Miracles
+psycho-intro:Introduction
+psycho-1:The Purpose of Psychotherapy
+psycho-2-intro:Introduction
+psycho-2-sect-1:The Limits on Psychotherapy
+psycho-2-sect-2:The Place of Religion in Psychotherapy
+psycho-2-sect-3:The Role of the Psychotherapist
+psycho-2-sect-4:The Process of Illness
+psycho-2-sect-5:The Process of Healing
+psycho-2-sect-6:The Definition of Healing
+psycho-2-sect-7:The Ideal Patient-Therapist Relationship
+psycho-3-sect-1:The Selection of Patients
+psycho-3-sect-2:Is Psychotherapy a Profession?
+psycho-3-sect-3:The Question of Payment
+song-1-intro:Introduction
+song-1-sect-1:True Prayer
+song-1-sect-2:The Ladder of Prayer
+song-1-sect-3:Praying for Others
+song-1-sect-4:Praying with Others
+song-1-sect-5:The Ladder Ends
+song-2-intro:Introduction
+song-2-sect-1:Forgiveness of Yourself
+song-2-sect-2:Forgiveness-to-Destroy
+song-2-sect-3:Forgiveness-for-Salvation
+song-3-intro:Introduction
+song-3-sect-1:The Cause of Sickness
+song-3-sect-2:False versus True Healing
+song-3-sect-3:Separation versus Union
+song-3-sect-4:The Holiness of Healing
