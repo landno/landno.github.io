@@ -2,7 +2,7 @@ $("span").dblclick(function(){
 	$("span").css("text-decoration","none");
 	var pos = $(this).position()
 	var fontSize = $(this).css('font-size');
-	var lineHeight = Math.floor(parseInt(fontSize.replace('px','')) * 1.5);
+	var lineHeight = Math.floor(parseInt(fontSize.replace('px','')) * 1);
 	$(this).css("text-decoration","underline");
 	let dnid = "d"+$(this).attr('data-sentence-id')
 	let dinsert_text = $("div").filter(function(){
