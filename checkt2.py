@@ -46,7 +46,9 @@ for i in os.listdir('html'):
 			#print(i)
 			#print(len(u_id))
 			#print(len(d_id))
-
+			#print(i)
+			#print(u_id)
+			#print(d_id)
 			for k,v in u_id.items():
 				if v != d_id[k]:
 					#print(len(u_id))

@@ -56,6 +56,16 @@ if js['volumeId'] == 'text':
 		tag = 'T-6.V.B.'
 	if js['annotation'] == 'T-6.V-C':
 		tag = 'T-6.V.C.'
+
+	if js['annotation'] == 'T-19.IV-A':
+		tag = 'T-19.IV.A.'
+	if js['annotation'] == 'T-19.IV-B':
+		tag = 'T-19.IV.B.'
+	if js['annotation'] == 'T-19.IV-C':
+		tag = 'T-19.IV.C.'
+	if js['annotation'] == 'T-19.IV-D':
+		tag = 'T-19.IV.D.'
+		
 	for i in r_lst:
 		#print(i)
 		soup = BeautifulSoup(i,'html.parser')
