@@ -11,6 +11,10 @@ span {
 }
 #title {
 	font-weight:bold;
+	padding-bottom: 0.5em;
+	padding-top: 2em;
+	padding-left: 0;
+	padding-right: 0.5em;
 }
 .acim-text {
 	line-height: 1.5em;
@@ -33,10 +37,4 @@ span {
 	font-size: 80%;
 	margin-right: 50pt;
 	
-}
-#title {
-	padding-bottom: 0.5em;
-	padding-top: 2em;
-	padding-left: 0em;
-	padding-right: 0.5em;
 }
