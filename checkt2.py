@@ -2,6 +2,7 @@ import os
 from bs4 import BeautifulSoup
 import numpy as np
 count = 0
+move = 1
 for i in os.listdir('html'):
 	if i[-4:] == 'html':
 		with open('html/'+i) as f:
