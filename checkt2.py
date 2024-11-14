@@ -42,6 +42,8 @@ for i in os.listdir('html'):
 				if v != d_id[k]:
 					#print(len(u_id))
 					#print(len(d_id))
+					if not os.path.exists('x_html/new/'+i):
+						os.system('cp x_html/'+i+' x_html/new/')
 					count+=1
 					print(u_id[k]+'=not same='+d_id[k]+' in '+str(k))
 					print(i)

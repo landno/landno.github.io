@@ -91,7 +91,10 @@ if js['volumeId'] == 'text':
 				print('<div class="popup" tid="d%s">%s</div>'%(str(num)+'#'+i[len(tag):].split('.')[0]+':'+t.split(' ')[0],t[len(str(k))+1:].replace('\n','')))
 				#print(i[c1:].strip())
 	#print(r_t_lst)
-	x_soup = BeautifulSoup(open('x_html/'+js['humanId']+'.html'),'html.parser')
+	f2 = 'x_html/'+js['humanId']+'.html'
+	if os.path.exists('x_html/new/'+js['humanId']+'.html'):
+		f2 = 'x_html/new/'+js['humanId']+'.html'
+	x_soup = BeautifulSoup(open(f2),'html.parser')
 
 
 	for p in x_soup.find_all('p'):
