@@ -12,6 +12,12 @@ for i in os.listdir('xhtml'):
 
 	if h:
 		t = h.text
+		if t == '一、若想擁有，普施一切':
+			os.system('cp xhtml/'+i+' x_html/chap-6-sect-5-sub-a.html')
+		if t == '二、若想平安，就藉著教導它來學會它':
+			os.system('cp xhtml/'+i+' x_html/chap-6-sect-5-sub-b.html')
+		if t == '三、只為上主及其天國而儆醒':
+			os.system('cp xhtml/'+i+' x_html/chap-6-sect-5-sub-c.html')
 		if t == '1 正文導言':
 			os.system('cp xhtml/'+i+' x_html/text-intro.html')
 		if t == '4 導言':
