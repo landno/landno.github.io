@@ -26,9 +26,12 @@ r_lst = []
 for i in os.listdir('epub'):
 	#print(i[-4:])
 	if i[-4:] == 'html':
-		with open('epub/'+i) as f:
-			
-			r_lst.append(f.read())
+		if os.path.exists('epub/new/'+i):
+			with open('epub/new/'+i) as f:
+				r_lst.append(f.read())
+		else:
+			with open('epub/'+i) as f:
+				r_lst.append(f.read())
 
 print(bodyH)
 

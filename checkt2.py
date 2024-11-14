@@ -5,6 +5,7 @@ count = 0
 for i in os.listdir('html'):
 	if i[-4:] == 'html':
 		with open('html/'+i) as f:
+			#print(i)
 			soup = BeautifulSoup(f.read(),'html.parser')
 			res = soup.find_all('div',attrs={'class':'popup'})
 			u_count = 0
@@ -23,9 +24,16 @@ for i in os.listdir('html'):
 							u_id[k] = str(h)
 					if j['tid'][0] == 'd':
 						d_count+=1
-						#print(j)
-						k = int(j['tid'].split('#')[1].split(':')[0])
-						h = int(j['tid'].split('#')[1].split(':')[1])
+						try:
+							k = int(j['tid'].split('#')[1].split(':')[0])
+							h = int(j['tid'].split('#')[1].split(':')[1])
+						except Exception as e:
+							print(i)
+							print(j)
+							print("epub fold error!!!!!!!!!!!!!!!!!! ")
+							count+=1
+							
+						
 						if d_id.get(k):
 							d_id[k] = d_id[k]+','+str(h)
 						else:
