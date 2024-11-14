@@ -1,8 +1,9 @@
 import os
 import json
 from natsort import natsorted
+start = 190
 for i in natsorted(os.listdir('json')):
-	for j in range(160,170):
+	for j in range(start,start+10):
 		if i.split('.')[0] == str(j):
 			js = json.load(open('json/'+i))
 			print(j)
