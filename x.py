@@ -51,3 +51,67 @@ for i in os.listdir('xhtml'):
 			if len(t.split(' ')[0].split('-')) == 2:
 				fn = 'chap-'+t.split(' ')[0].split('-')[0]+'-sect-'+t.split(' ')[0].split('-')[1]+'.html'
 				os.system('cp xhtml/'+i+' x_html/'+fn)
+		#workbook
+		if meta['content'][34:36] == '2.':
+			if h:
+				t = h.text
+
+				#error!!!!!!!!!!!!!!
+				if t == '1 導言' and meta['content'][92:93] == '1':
+					os.system('cp xhtml/'+i+' x_html/wb-intro.html')
+				if t == '1 導言' and meta['content'][92:93] == '2':
+					os.system('cp xhtml/'+i+' x_html/wb-part2-intro.html')
+				if t == '51～60課 複習一：導言':
+					os.system('cp xhtml/'+i+' x_html/review-1-intro.html')
+				if t == '81～90課 複習二：導言':
+					os.system('cp xhtml/'+i+' x_html/review-2-intro.html')
+				if t == '111～120課 複習三：導言':
+					os.system('cp xhtml/'+i+' x_html/review-3-intro.html')
+				if t == '141～150課 複習四：導言':
+					os.system('cp xhtml/'+i+' x_html/review-4-intro.html')
+				if t == '171～180課 複習五：導言':
+					os.system('cp xhtml/'+i+' x_html/review-5-intro.html')
+				if t == '181～200課：導言':
+					os.system('cp xhtml/'+i+' x_html/l-181-to-200-intro.html')
+				if t == '201～220課 複習六：導言':
+					os.system('cp xhtml/'+i+' x_html/review-6-intro.html')
+				if t == '1. 何謂寬恕？':
+					os.system('cp xhtml/'+i+' x_html/wb-part2-what-is-1.html')
+				if t == '2. 何謂救恩？':
+					os.system('cp xhtml/'+i+' x_html/wb-part2-what-is-2.html')
+				if t == '3. 何謂世界？':
+					os.system('cp xhtml/'+i+' x_html/wb-part2-what-is-3.html')
+				if t == '4. 何謂罪？':
+					os.system('cp xhtml/'+i+' x_html/wb-part2-what-is-4.html')
+				if t == '5. 何謂身體？':
+					os.system('cp xhtml/'+i+' x_html/wb-part2-what-is-5.html')
+				if t == '6. 何謂基督？':
+					os.system('cp xhtml/'+i+' x_html/wb-part2-what-is-6.html')
+				if t == '7. 何謂聖靈？':
+					os.system('cp xhtml/'+i+' x_html/wb-part2-what-is-7.html')
+				if t == '8. 何謂真實世界？':
+					os.system('cp xhtml/'+i+' x_html/wb-part2-what-is-8.html')
+				if t == '9. 何謂基督的再臨？':
+					os.system('cp xhtml/'+i+' x_html/wb-part2-what-is-9.html')
+				if t == '10. 何謂最後的審判？':
+					os.system('cp xhtml/'+i+' x_html/wb-part2-what-is-10.html')
+				if t == '11. 何謂受造？':
+					os.system('cp xhtml/'+i+' x_html/wb-part2-what-is-11.html')
+				if t == '12. 何謂小我？':
+					os.system('cp xhtml/'+i+' x_html/wb-part2-what-is-12.html')
+				if t == '13. 何謂奇蹟？':
+					os.system('cp xhtml/'+i+' x_html/wb-part2-what-is-13.html')
+				if t == '14. 我是什麼？':
+					os.system('cp xhtml/'+i+' x_html/wb-part2-what-is-14.html')
+				if t == '361～365課 最後的幾課':
+					os.system('cp xhtml/'+i+' x_html/final-lessons-intro.html')
+				if t == '361～365課 最後的幾課':
+					os.system('cp xhtml/'+i+' x_html/final-lessons.html')
+				if t == '跋':
+					os.system('cp xhtml/'+i+' x_html/wb-epilogue.html')
+				if t.find('課') and len(t.split('課')[0])<4:
+					os.system('cp xhtml/'+i+' x_html/lesson-'+t.split('課')[0]+'.html')
+					
+			pass
+
+
