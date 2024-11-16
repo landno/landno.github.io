@@ -157,6 +157,13 @@ if js['volumeId'] == 'workbook':
 	tag = js['annotation']+'.'
 	if tag == 'W-in.181-200.':
 		tag = 'WpI.in.181-200.'
+	if tag == 'W-ep.':
+		tag = 'W.ep.'
+	if tag == 'W-fl.in.':
+		tag = 'W.fl.in.'
+	
+	if tag == 'W-361-365.':
+		tag = 'W-361-5.'
 	for i in r_lst:
 		#print(i)
 		soup = BeautifulSoup(i,'html.parser')
