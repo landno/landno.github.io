@@ -51,6 +51,7 @@ for i in os.listdir('xhtml'):
 			if len(t.split(' ')[0].split('-')) == 2:
 				fn = 'chap-'+t.split(' ')[0].split('-')[0]+'-sect-'+t.split(' ')[0].split('-')[1]+'.html'
 				os.system('cp xhtml/'+i+' x_html/'+fn)
+
 		#workbook
 		if meta['content'][34:36] == '2.':
 			if h:
@@ -111,7 +112,22 @@ for i in os.listdir('xhtml'):
 					os.system('cp xhtml/'+i+' x_html/wb-epilogue.html')
 				if t.find('課') and len(t.split('課')[0])<4:
 					os.system('cp xhtml/'+i+' x_html/lesson-'+t.split('課')[0]+'.html')
-					
-			pass
 
+			pass
+		#manual
+		if meta['content'][34:36] == '3.':
+			if h:
+				t = h.text
+				if t == '1 導言':
+					os.system('cp xhtml/'+i+' x_html/manual-intro.html')
+				if t.find('.')>1:
+					os.system('cp xhtml/'+i+' x_html/manual-'+t.split('.')[0]+'.html')
+
+
+		#p
+		if meta['content'][34:36] == '4.':
+			pass
+		#s
+		if meta['content'][34:36] == '4.':
+			pass
 
