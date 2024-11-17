@@ -126,8 +126,71 @@ for i in os.listdir('xhtml'):
 
 		#p
 		if meta['content'][34:36] == '4.':
-			pass
+			if h:
+				t = h.text
+				if t == '導言':
+					os.system('cp xhtml/'+i+' x_html/clarification-intro.html')
+				if t == '跋':
+					os.system('cp xhtml/'+i+' x_html/clarification-epilogue.html')
+				if t.find('.')>=1:
+					os.system('cp xhtml/'+i+' x_html/clarification-0'+t.split('.')[0]+'.html')
 		#s
-		if meta['content'][34:36] == '4.':
-			pass
+		if meta['content'][34:36] == '5.':
+			if t == '導言':
+				os.system('cp xhtml/'+i+' x_html/psycho-intro.html')
+			if t == '1 心理治療的目的':
+				os.system('cp xhtml/'+i+' x_html/psycho-1.html')
+			if t == '2 心理治療的過程——導言':
+				os.system('cp xhtml/'+i+' x_html/psycho-2-intro.html')
+			if t == '2-1 心理治療的限制':
+				os.system('cp xhtml/'+i+' x_html/psycho-2-sect-1.html')
+			if t == '2-2 宗教在心理治療中的位置':
+				os.system('cp xhtml/'+i+' x_html/psycho-2-sect-2.html')
+			if t == '2-3 心理治療師的角色':
+				os.system('cp xhtml/'+i+' x_html/psycho-2-sect-3.html')
+			if t == '2-4 罹病的過程':
+				os.system('cp xhtml/'+i+' x_html/psycho-2-sect-4.html')
+			if t == '2-5 療癒的過程':
+				os.system('cp xhtml/'+i+' x_html/psycho-2-sect-5.html')
+			if t == '2-6 療癒的定義':
+				os.system('cp xhtml/'+i+' x_html/psycho-2-sect-6.html')
+			if t == '2-7 理想的醫病關係':
+				os.system('cp xhtml/'+i+' x_html/psycho-2-sect-7.html')
+			if t == '3 心理治療的實踐；3-1 怎麼挑選病患':
+				os.system('cp xhtml/'+i+' x_html/psycho-3-sect-1.html')
+			if t == '3-2 心理治療是一項專業嗎？':
+				os.system('cp xhtml/'+i+' x_html/psycho-3-sect-2.html')
+			if t == '3-3 付費的問題':
+				os.system('cp xhtml/'+i+' x_html/psycho-3-sect-3.html')
+			if t == '1 祈禱——導言':
+				os.system('cp xhtml/'+i+' x_html/song-1-intro.html')
+			if t == '1-1 真正的祈禱':
+				os.system('cp xhtml/'+i+' x_html/song-1-sect-1.html')
+			if t == '1-2 祈禱的階梯':
+				os.system('cp xhtml/'+i+' x_html/song-1-sect-2.html')
+			if t == '1-3 為他人祈禱':
+				os.system('cp xhtml/'+i+' x_html/song-1-sect-3.html')
+			if t == '1-4 與他人一同祈禱':
+				os.system('cp xhtml/'+i+' x_html/song-1-sect-4.html')
+			if t == '1-5 階梯的盡頭':
+				os.system('cp xhtml/'+i+' x_html/song-1-sect-5.html')
+			if t == '2 寬恕——導言':
+				os.system('cp xhtml/'+i+' x_html/song-2-intro.html')
+			if t == '2-1 自我寬恕':
+				os.system('cp xhtml/'+i+' x_html/song-2-sect-1.html')
+			if t == '2-2 毀滅式的寬恕':
+				os.system('cp xhtml/'+i+' x_html/song-2-sect-2.html')
+			if t == '2-3 救恩性的寬恕':
+				os.system('cp xhtml/'+i+' x_html/song-2-sect-3.html')
+			if t == '3 療癒——導言':
+				os.system('cp xhtml/'+i+' x_html/song-3-intro.html')
+			if t == '3-1 疾病的起因':
+				os.system('cp xhtml/'+i+' x_html/song-3-sect-1.html')
+			if t == '3-2 真假療癒':
+				os.system('cp xhtml/'+i+' x_html/song-3-sect-2.html')
+			if t == '3-3 分裂與合一':
+				os.system('cp xhtml/'+i+' x_html/song-3-sect-3.html')
+			if t == '3-4 療癒的神聖性':
+				os.system('cp xhtml/'+i+' x_html/song-3-sect-4.html')
+
 
