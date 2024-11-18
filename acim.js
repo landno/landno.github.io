@@ -1,4 +1,5 @@
-$("span").dblclick(function(){
+$("span").on("click",function(event){
+	//$("span").dblclick(function(){
 	$("span").css("text-decoration","none");
 	var pos = $(this).position()
 	var fontSize = $(this).css('font-size');
@@ -17,26 +18,33 @@ $("span").dblclick(function(){
 	$("#dtext").show()
 	$("#dtext").hide()
 	$("#dtext").show()
+	event.stopPropagation()
+	//$("#dtext").toggle()
 	$("#utext").text(uinsert_text)
 	$("#utext").css({top:pos.top-$("#dtext").innerHeight()-lineHeight-$("#utext").innerHeight()+16,left:pos.left,position:"absolute",backgound:"grey"});
 	$("#utext").show()
 	$("#utext").hide()
 	$("#utext").show()
+	event.stopPropagation()
+	//$("#utext").toggle()
 
 });
-$("body").scroll(function(){
-	$("span").css("text-decoration","none");
+//$("body").scroll(function(){
+//	$("span").css("text-decoration","none");
+//	$("#dtext").hide()
+//	$("#utext").hide()
+//})
+$("body").on("click",function(){
+	//$("span").css("text-decoration","none");
+	//$("#dtext").toggle()
+	//$("#utext").toggle()
 	$("#dtext").hide()
 	$("#utext").hide()
-})
-$("body").click(function(){
 	$("span").css("text-decoration","none");
-	$("#dtext").hide()
-	$("#utext").hide()
 })
-$("body").mouseenter(function(){
-	$("span").css("text-decoration","none");
-	$("#dtext").hide()
-	$("#utext").hide()
-})
+//$("body").mouseenter(function(){
+//	$("span").css("text-decoration","none");
+//	$("#dtext").hide()
+//	$("#utext").hide()
+//})
 	
