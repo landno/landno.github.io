@@ -15,8 +15,12 @@ $("span").dblclick(function(){
 	$("#dtext").text(dinsert_text)
 	$("#dtext").css({top:pos.top-lineHeight-$('#dtext').height(),left:pos.left,position:"absolute",backgound:"grey"});
 	$("#dtext").show()
+	$("#dtext").hide()
+	$("#dtext").show()
 	$("#utext").text(uinsert_text)
 	$("#utext").css({top:pos.top-$("#dtext").innerHeight()-lineHeight-$("#utext").innerHeight()+16,left:pos.left,position:"absolute",backgound:"grey"});
+	$("#utext").show()
+	$("#utext").hide()
 	$("#utext").show()
 
 });
