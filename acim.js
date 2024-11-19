@@ -1,4 +1,6 @@
 $("span").on("click",function(event){
+	$("#dtext").text(dinsert_text)
+	$("#utext").text(uinsert_text)
 	//$("span").dblclick(function(){
 	$("span").css("text-decoration","none");
 	var pos = $(this).position()
@@ -15,14 +17,14 @@ $("span").on("click",function(event){
 	}).first().text()
 	//var fontSize = $(this).css('font-size');
 	//var lineHeight = Math.floor(parseInt(fontSize.replace('px','')) * 1);
-	$("#dtext").text(dinsert_text)
+	//$("#dtext").text(dinsert_text)
 	$("#dtext").css({top:pos.top-lineHeight-$('#dtext').height(),left:pos.left,position:"absolute",backgound:"grey"});
 	$("#dtext").show()
 	$("#dtext").hide()
 	$("#dtext").show()
 	//event.stopPropagation()
 	//$("#dtext").toggle()
-	$("#utext").text(uinsert_text)
+	//$("#utext").text(uinsert_text)
 	$("#utext").css({top:pos.top-$("#dtext").innerHeight()-lineHeight-$("#utext").innerHeight()+16,left:pos.left,position:"absolute",backgound:"grey"});
 	$("#utext").show()
 	$("#utext").hide()
