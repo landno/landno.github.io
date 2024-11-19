@@ -36,6 +36,8 @@ for i in natsorted(os.listdir('favor')):
       else:
         tit = js['seoTitle'].split('|')[0]
       t = i.split('.')[0]
+      if len(tit)>50:
+        tit = tit[0:50]+'...'
       print('  <a href="%s">%s</a><br>'%('workbook/'+i,(t+':'+tit)))
 
 print(bodyF)
