@@ -1,6 +1,4 @@
 $("span").on("click",function(event){
-	$("#dtext").text(dinsert_text)
-	$("#utext").text(uinsert_text)
 	//$("span").dblclick(function(){
 	$("span").css("text-decoration","none");
 	var pos = $(this).position()
@@ -11,6 +9,8 @@ $("span").on("click",function(event){
 	let dinsert_text = $("div").filter(function(){
 		return $(this).attr('tid') == dnid
 	}).first().text()
+	$("#dtext").text(dinsert_text)
+	$("#utext").text(uinsert_text)
 	let unid = "u"+$(this).attr('data-sentence-id')
 	let uinsert_text = $("div").filter(function(){
 		return $(this).attr('tid') == unid
