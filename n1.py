@@ -4,6 +4,7 @@ from natsort import natsorted
 bodyH='''
 <html>
   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <style>
       a {
         color:black;
@@ -27,7 +28,8 @@ for j in natsorted(os.listdir('json')):
 	else:
 		tit = js['seoTitle'].split('|')[0]
 	if len(tit)>50:
-		tit = tit[0:50]+'...'
+		pass
+		#tit = tit[0:50]+'...'
 	#print(js['humanId']+':'+tit)
 	print('  <a href="%s">%s</a><br>'%('html/'+js['humanId']+'.html',js['humanId']+':'+tit))
 print(bodyF)
